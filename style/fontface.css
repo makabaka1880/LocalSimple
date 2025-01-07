@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../tff/JetBrainsMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../tff/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../tff/JetBrainsMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../tff/JetBrainsMono-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono NL';
+    src: url('../tff/JetBrainsMonoNL-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono NL';
+    src: url('../tff/JetBrainsMonoNL-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

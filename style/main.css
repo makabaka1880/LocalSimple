@@ -1,0 +1,78 @@
+@import url(fontface.css);
+
+body {
+    background-color: black;
+    /* color: white; */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.heading-box {
+    color: white;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.padding-box {
+    padding: 20px;
+}
+
+#poem-display{
+    overflow-y: auto;
+    height: 30vh;
+}
+
+h1 {
+    font-family: 'JetBrains Mono NL', monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media screen and (min-aspect-ratio: 1) {
+    .index-content-box {
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+    }
+    .index-page-distribute {
+        display: flex;           /* Enables flexbox layout */
+        justify-content: space-between; /* Distributes space between child elements */
+        align-items: center;     /* Centers items vertically (optional) */
+    }
+    h1.heading {
+        font-size: 75px;
+        font-weight: bolder;
+    }
+    img#hero {
+        width: 35vw;
+    }
+    textarea {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-aspect-ratio: 1) {
+    .index-content-box {
+        background-color: white;
+        height: 100vh;
+        width: 100vw;
+        right: 0;
+    }
+    .index-page-distribute {
+        display: flex;              /* Enables flexbox layout */
+        flex-direction: column;     /* Distribute items vertically */
+        justify-content: space-between; /* Distributes space between child elements */
+        align-items: center;        /* Centers items horizontally (optional) */
+    }
+    h1.heading {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    img#hero {
+        width: 80vw;
+    }
+    textarea {
+        width: 90vw;
+    }
+}
